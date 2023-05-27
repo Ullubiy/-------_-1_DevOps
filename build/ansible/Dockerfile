@@ -2,6 +2,7 @@ FROM python:3.9-slim-buster
 
 RUN pip install pip --upgrade
 RUN pip install ansible
+RUN pip install nginx
 RUN pip install six
 RUN pip install jmespath
 
