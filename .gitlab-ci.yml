@@ -30,7 +30,7 @@ add_user:
     - linux
   only:
     refs:
-- master
+    - master
     variables:
       - $USER
   script:
